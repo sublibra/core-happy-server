@@ -1,0 +1,23 @@
+{
+    "name": "happy-notify",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "enigma.js": "^2.2.1",
+        "koa": "^2.5.1",
+        "koa-body": "^4.0.4",
+        "koa-router": "^7.4.0",
+        "koa-static": "^5.0.0",
+        "ws": "^5.2.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "docker-build": "docker build -t sublibra/happy-server .",
+        "docker-push": "docker push sublibra/happy-server"
+    },
+    "author": "Jonas Hörström <jonas.horstrom@gmail.com>",
+    "license": "MIT"
+}
