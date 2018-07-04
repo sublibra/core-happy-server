@@ -8,20 +8,19 @@ const router = new Router();
 
 
 // serve happiness app from dist folder
-//app.use(serve(`${__dirname}/dist`));
 app.use(serve(`${__dirname}/dist`));
 
 
 // rest endpoint
 router
     .get('/api/', (ctx) => {
-        ctx.body = 'I am listening!';
-        console.log('GET');
+      ctx.body = 'I am listening!';
+      console.log('GET');
     })
     .post('/api/happiness', koaBody, (ctx) => {
-        console.log(ctx.request.body);
-        ctx.body = JSON.stringify(ctx.request.body, null, 2);
-        ctx.status = 201;
+      console.log(ctx.request.body);
+      ctx.body = JSON.stringify(ctx.request.body, null, 2);
+      ctx.status = 201;
     });
 app.use(router.routes());
 
