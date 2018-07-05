@@ -20,7 +20,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
-        "docker-build": "docker build -t sublibra/happy-server .",
+        "build": "docker build -t sublibra/happy-server .",
         "docker-push": "docker push sublibra/happy-server",
         "lint": "eslint .",
         "lint:fix": "eslint --fix ."
