@@ -6,10 +6,8 @@ const koaBody = require('koa-body')({ multipart: true });
 const app = new Koa();
 const router = new Router();
 
-
 // serve happiness app from dist folder
 app.use(serve(`${__dirname}/dist`));
-
 
 // rest endpoint
 router
