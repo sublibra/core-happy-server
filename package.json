@@ -6,7 +6,7 @@
     "dependencies": {
         "enigma.js": "^2.2.1",
         "koa": "^2.5.1",
-        "koa-body": "^4.0.4",
+        "koa-body": "^4.1.0",
         "koa-router": "^7.4.0",
         "koa-static": "^5.0.0",
         "ws": "^5.2.1"
