@@ -5,7 +5,7 @@
     "main": "server.js",
     "dependencies": {
         "enigma.js": "^2.2.1",
-        "koa": "^2.5.1",
+        "koa": "^2.8.1",
         "koa-body": "^4.0.4",
         "koa-router": "^7.4.0",
         "koa-static": "^5.0.0",
